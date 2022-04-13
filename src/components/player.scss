@@ -1,0 +1,83 @@
+.audio-section {
+	background-image: url("../image//player.png");
+	height: 520px;
+}
+.audio-extension {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	button {
+		border: none;
+	}
+	& .back-img{
+		width: 30px;
+		height: 30px;
+		border: none;
+
+		margin-top: 10px;
+	}
+	& .cham-img {
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+	}
+}
+.audio-wrapper {
+	width: 80%;
+    margin: 0 auto;
+}
+.audio-image {
+	margin-left: 220px;
+	margin-top: -122px;
+    & .img-hinhanh {
+
+
+	float: left;
+    width: 100%;
+    margin-right: -100%;
+    max-width: 220px;
+    max-height: 315px;
+    position: relative;
+    z-index: 1;
+	}
+	& .img-cd {
+
+		height: 180px;
+		float: left;
+		width: 100%;
+		max-width: 176px;
+		margin-left: 130px;
+		margin-top: 44px;
+	}
+}
+.audio-content {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.audio-description {
+	margin: 20px 0 80px;
+    text-align: center;
+	& .chapter-title {
+		margin-bottom: 8px;
+    color: #262338;
+    font-size: 24px;
+    font-family: "SVN-Gilroy-Bold";
+	line-height: 30px;
+	}
+	& .chapter-description {
+		margin-bottom: 0;
+		color: #6e7191;
+		font-size: 20px;
+		font-family: "SVN-Gilroy-Regular";
+	}
+}

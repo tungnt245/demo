@@ -1,0 +1,147 @@
+.login-container {
+	background-color: #3d40c6;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    padding: 15px;
+    overflow: hidden;
+}
+.login-content {
+	background-color: #fcfcfc;
+	min-width: 722px;
+	height: 100%;
+	border-radius: 10px;
+	margin-left: 130px;
+}
+
+.back-text {
+	font-size: 16px;
+    color: #6e7191;
+    font-family: "SVN-Gilroy-SemiBold";
+	display: flex;
+	margin-top: 23px;
+	margin-left: 40px;
+    text-decoration: none;
+
+}
+.icon1 {
+
+	height: 100%;
+	img {
+		width: 20px;
+		height: 20px;
+	}
+}
+.icon1 {
+	margin-right: 10px;
+	padding-top: 3px;
+}
+.form-login {
+	margin: auto;
+    padding: 10px 22px;
+    width: 70%;
+    max-height: 100vh;
+    max-width: 350px;
+}
+.titlee {
+	font-size: 23px;
+	color: #262338;
+	font-family: "SVN-Gilroy-Bold";
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 91px 0;
+    margin-left: 0px;
+}
+.login-input {
+	padding: 11px 0;
+    display: flex;
+}
+.login-input-email {
+	width: 100%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #eff0f7;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+	margin-top: -62px;
+}
+.login-input-password {
+
+    height: 40px;
+    font-size: 14px;
+    background-color: #eff0f7;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+	margin-right: 95px;
+	min-width: 270px;
+	margin-top: -20px;
+}
+::placeholder {
+	color: #A0A3BD;
+	opacity: 1;
+}
+.ig {
+	height: 45px;
+	width: 45px;
+	background-repeat: no-repeat;
+	margin-left: -87px;
+	margin-top: -20px;
+}
+.password-btn {
+
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-password{
+	margin-top: 24px;
+}
+.forgot-password-link {
+	display: flex;
+    font-size: 14px;
+    font-family: "SVN-Gilroy-Bold";
+    color: #262338;
+    justify-content: center;
+}
+.login-button {
+    border: none;
+    background: #3d40c6;
+    color: #f7f7fc;
+    border-radius: 80px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    margin: 30px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.logo-img {
+    width: 300px;
+}
+.login-logo {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+.logo-img {
+    margin-left: 140px;
+}
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+.forgot-password-link {
+    text-decoration: none;
+}
